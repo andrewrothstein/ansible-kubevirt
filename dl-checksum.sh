@@ -1,17 +1,17 @@
 #!/usr/bin/env sh
-VER=${1:-v0.21.0}
 DIR=~/Downloads
-MIRROR=https://github.com/kubevirt/kubevirt/releases/download/${VER}
+MIRROR=https://github.com/kubevirt/kubevirt/releases/download
 
 dl()
 {
-    local os=$1
-    local arch=$2
-    local suffix=${3:-}
+    local ver=$1
+    local os=$2
+    local arch=$3
+    local suffix=${4:-}
     local platform="${os}-${arch}"
-    local file="virtctl-${VER}-${platform}${suffix}"
+    local file="virtctl-${ver}-${platform}${suffix}"
     local lfile=$DIR/$file
-    local url=$MIRROR/$file
+    local url=$MIRROR/$ver/$file
     if [ ! -e $lfile ];
     then
            wget -q -O $lfile $url
@@ -20,9 +20,12 @@ dl()
     printf "    %s: sha256:%s\n" $platform `sha256sum $lfile | awk '{print $1}'`
 }
 
-printf "  %s:\n" $VER
-dl darwin amd64
-dl linux amd64
-dl windows amd64 .exe
+dl_ver() {
+    local ver=$1
+    printf "  %s:\n" $ver
+    dl $ver darwin amd64
+    dl $ver linux amd64
+    dl $ver windows amd64 .exe
+}
 
-
+dl_ver ${1:-v0.23.0}
