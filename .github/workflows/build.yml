@@ -34,7 +34,7 @@ jobs:
         - fedora_34
         - rockylinux_8.4
         - ubuntu_bionic
-        - ubuntu_trusty
+        - ubuntu_focal
         python-versions:
         - '3.9'
 name: dcb
