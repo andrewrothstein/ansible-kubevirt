@@ -9,19 +9,19 @@
       skip: true
       paths:
         - '{{ role_path }}/vars'
-- name: download virtctl...
+- name: downloading {{ kubevirt_url }}...
   become: yes
   become_user: root
   get_url:
     url: '{{ kubevirt_url }}'
-    dest: '{{ kubevirt_target_bin }}'
+    dest: '{{ kubevirt_exe }}'
     checksum: '{{ kubevirt_checksum }}'
     mode: 0755
 
-- name: link...
+- name: linking {{ kubevirt_link }} to {{ kubevirt_exe }}
   become: yes
   become_user: root
   file:
-    src: '{{ kubevirt_target_bin }}'
-    dest: '{{ kubevirt_target_link }}'
+    src: '{{ kubevirt_exe }}'
+    dest: '{{ kubevirt_link }}'
     state: link

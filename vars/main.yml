@@ -6,5 +6,5 @@ kubevirt_url: '{{ kubevirt_mirror }}/{{ kubevirt_ver }}/{{ kubevirt_bin }}'
 kubevirt_checksum: '{{ kubevirt_checksums[kubevirt_ver][kubevirt_platform] }}'
 
 
-kubevirt_target_bin: '{{ kubevirt_install_bin_dir }}/{{ kubevirt_bin }}'
-kubevirt_target_link: '{{ kubevirt_install_bin_dir }}/virtctl'
+kubevirt_exe: '{{ kubevirt_install_bin_dir }}/{{ kubevirt_bin }}'
+kubevirt_link: '{{ kubevirt_install_bin_dir }}/virtctl'

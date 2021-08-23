@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+set -e
 DIR=~/Downloads
 MIRROR=https://github.com/kubevirt/kubevirt/releases/download
 
@@ -28,4 +29,4 @@ dl_ver() {
     dl $ver windows amd64 .exe
 }
 
-dl_ver ${1:-v0.23.0}
+dl_ver ${1:-v0.44.1}
