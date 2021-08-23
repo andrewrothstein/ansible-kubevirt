@@ -1,6 +1,6 @@
 andrewrothstein.kubevirt
 =========
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-kubevirt.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-kubevirt)
+![Build Status](https://github.com/andrewrothstein/ansible-kubevirt/actions/workflows/build.yml/badge.svg)
 
 Installs [kubevirt](https://github.com/kubevirt/kubevirt)
 
