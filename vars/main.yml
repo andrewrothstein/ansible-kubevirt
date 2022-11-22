@@ -1,5 +1,7 @@
 ---
 # vars file for kubevirt
+kubevirt_os: '{{ ansible_system | lower }}'
+kubevirt_arch: '{{ kubevirt_arch_map[ansible_architecture] }}'
 kubevirt_platform: '{{ kubevirt_os }}-{{ kubevirt_arch }}'
 kubevirt_bin: virtctl-{{ kubevirt_ver }}-{{ kubevirt_platform }}
 kubevirt_url: '{{ kubevirt_mirror }}/{{ kubevirt_ver }}/{{ kubevirt_bin }}'

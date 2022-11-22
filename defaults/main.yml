@@ -1,8 +1,8 @@
 ---
 # defaults file for kubevirt
-kubevirt_ver: v0.53.2
-kubevirt_os: linux
-kubevirt_arch: amd64
+kubevirt_ver: v0.58.0
+kubevirt_arch_map:
+  x86_64: amd64
 kubevirt_mirror: https://github.com/kubevirt/kubevirt/releases/download
 kubevirt_install_bin_dir: /usr/local/bin
 kubevirt_checksums:
@@ -132,3 +132,10 @@ kubevirt_checksums:
     linux-amd64: sha256:0139c60ca039024b9fc7d04e221672b95d97a9b35eeecf1472c23dbf6844b189
     # https://github.com/kubevirt/kubevirt/releases/download/v0.53.2/virtctl-v0.53.2-windows-amd64.exe
     windows-amd64: sha256:45dd47b5150629eb851950a230eeb4c2eb83d3ab6c99021ab182e4fbbbc5bd2c
+  v0.58.0:
+    # https://github.com/kubevirt/kubevirt/releases/download/v0.58.0/virtctl-v0.58.0-darwin-amd64
+    darwin-amd64: sha256:95ca1fc899a451b690a5582f301abcf1290379be9c18a972f983d838ba1f50fa
+    # https://github.com/kubevirt/kubevirt/releases/download/v0.58.0/virtctl-v0.58.0-linux-amd64
+    linux-amd64: sha256:57dd6fa8eedfebf5fcfda853f996806c09067edde62a4a02cbbcbd57440961ef
+    # https://github.com/kubevirt/kubevirt/releases/download/v0.58.0/virtctl-v0.58.0-windows-amd64.exe
+    windows-amd64: sha256:4775033bcbf83df2a78bb8d71fd2a083a5606a6ffcfa2106c7a5c194ecd42a1f
