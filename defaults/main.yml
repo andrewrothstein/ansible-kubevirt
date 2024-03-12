@@ -1,6 +1,6 @@
 ---
 # defaults file for kubevirt
-kubevirt_ver: v1.0.0
+kubevirt_ver: v1.2.0
 kubevirt_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -159,3 +159,14 @@ kubevirt_checksums:
     linux-arm64: sha256:0ec5c93d313c91fad3002e07c5a5c47a6a8cdd1f8f17b0d838f04af9f874b555
     # https://github.com/kubevirt/kubevirt/releases/download/v1.0.0/virtctl-v1.0.0-windows-amd64.exe
     windows-amd64: sha256:0d538afc2df6defa0fa3ba2be0acdbd344e7ed8a201ec4023ca93646725240ef
+  v1.2.0:
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.2.0/virtctl-v1.2.0-darwin-arm64
+    darwin-arm64: sha256:22ce2929ed0885c13f7cba62a6438acf5222447189ff64e0fb35aab1ba278626
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.2.0/virtctl-v1.2.0-darwin-amd64
+    darwin-amd64: sha256:4463b0ee8c078b8978d753de5f8eef659db855b7162dec94b68d8e49e87856cf
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.2.0/virtctl-v1.2.0-linux-amd64
+    linux-amd64: sha256:11b72d927be32248ed57f5ef0381fd622465ce7eb1c67eeb6c189106e9803e92
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.2.0/virtctl-v1.2.0-linux-arm64
+    linux-arm64: sha256:6b6a7993f60a92dfaee587feb117d73767cb0cdd4f3d5c20e61dda13a09fa3b1
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.2.0/virtctl-v1.2.0-windows-amd64.exe
+    windows-amd64: sha256:23a4cbea385c9b89a238c12a000c014e8cc86369669e80169dbf162a4d28e2ea
