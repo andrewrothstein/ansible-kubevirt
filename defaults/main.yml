@@ -1,6 +1,6 @@
 ---
 # defaults file for kubevirt
-kubevirt_ver: v1.5.0
+kubevirt_ver: v1.7.0
 kubevirt_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -203,3 +203,91 @@ kubevirt_checksums:
     linux-arm64: sha256:aabcf1571639aa5b9bdbaf005d78b5b2c21ebcf1b2f9f7bdc43caff693077549
     # https://github.com/kubevirt/kubevirt/releases/download/v1.5.0/virtctl-v1.5.0-windows-amd64.exe
     windows-amd64: sha256:332d0c74e96c5ff8d5aa40e843d4cef31c9e96733bffe89727eba646897598e3
+  v1.5.1:
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.5.1/virtctl-v1.5.1-darwin-arm64
+    darwin-arm64: sha256:f50465f5e411fafb3be7f3e558b1f970741f22464ac0357fcc17cb3c65aa4576
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.5.1/virtctl-v1.5.1-darwin-amd64
+    darwin-amd64: sha256:7471ad3f83f0f819f2d115c9c02d1f3988feabb250b8190c99f932f2c07b4618
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.5.1/virtctl-v1.5.1-linux-amd64
+    linux-amd64: sha256:9535d0f0fda355c3b12d79fee6f649d6dfb4f14282b1999933eb08f886256be9
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.5.1/virtctl-v1.5.1-linux-arm64
+    linux-arm64: sha256:9af1801bc1e5127d33b26862d08793b9883ee7f990035cbc998e32ab59d5229f
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.5.1/virtctl-v1.5.1-windows-amd64.exe
+    windows-amd64: sha256:6524832f5b48c0ff6baf18d9e9ab0c7649c0299b843000fe8965fc8898b86491
+  v1.5.2:
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.5.2/virtctl-v1.5.2-darwin-arm64
+    darwin-arm64: sha256:4c9c6f13b56447fe6b15ba8fc0b8353553e81f31937d3acc578b8da3159dac41
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.5.2/virtctl-v1.5.2-darwin-amd64
+    darwin-amd64: sha256:607d6dfb5435d60fdd5a08ad653fb3c10c3384eb5125fb55e6efb2007a9a9de2
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.5.2/virtctl-v1.5.2-linux-amd64
+    linux-amd64: sha256:747efaaba0492157a82610c6157e362ce1e8eaf0a3f56208b1f24f46c545e3b8
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.5.2/virtctl-v1.5.2-linux-arm64
+    linux-arm64: sha256:6af33141eb00244d7d4679e323f85c599d4bf9f6ae3a8b4c2fcca6df47a0346e
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.5.2/virtctl-v1.5.2-windows-amd64.exe
+    windows-amd64: sha256:38af03693c2d6c2e33210a371e08b638e1423cc48215aa5dc8b460f58236d958
+  v1.5.3:
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.5.3/virtctl-v1.5.3-darwin-arm64
+    darwin-arm64: sha256:5acaebcf222e57bfde295d7a23231eedfe5d11c0cbb73a170db98279842075e6
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.5.3/virtctl-v1.5.3-darwin-amd64
+    darwin-amd64: sha256:9ef5540f7ce39ec49e2acf1b46253b7a5c7eca88ebdc13cce3576d5b3cce8e0e
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.5.3/virtctl-v1.5.3-linux-amd64
+    linux-amd64: sha256:10d76408113f767362355a91655dc5a3ad010f64ccb63d14867405069a0f56d1
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.5.3/virtctl-v1.5.3-linux-arm64
+    linux-arm64: sha256:d9c61a2fddabd345e23a429941a584b5580bd0d96372db3e7f24a4aa81b4f022
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.5.3/virtctl-v1.5.3-windows-amd64.exe
+    windows-amd64: sha256:aa7a7c46156402ec683be19d2e0a7e73132c9a6e22442c4646448cc33a2f90b7
+  v1.6.0:
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.0/virtctl-v1.6.0-darwin-arm64
+    darwin-arm64: sha256:519560db397daff598eda716f5437642dcd704319d96b14e1f3a9d28d666a169
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.0/virtctl-v1.6.0-darwin-amd64
+    darwin-amd64: sha256:cb315cb1d503f24a815d51bfb37509583e0350a8fd07d0e85c240f6597beed79
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.0/virtctl-v1.6.0-linux-amd64
+    linux-amd64: sha256:a14455a7f27734a2329cde779289133d859bbedf37bf93fdf2eeea6ea0efe693
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.0/virtctl-v1.6.0-linux-arm64
+    linux-arm64: sha256:cbad03b69fbe5250160f8a68572ea5248b6c8f8acbff8a2bec6dccb89f634e27
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.0/virtctl-v1.6.0-windows-amd64.exe
+    windows-amd64: sha256:28878b968669e6094f361d78bc119380eae81bcbb5d34bcb554923784b3fb6b0
+  v1.6.1:
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.1/virtctl-v1.6.1-darwin-arm64
+    darwin-arm64: sha256:66767c0c7220123961704e7f41a8f86fc43e98a41ef0d0ff0372f32d31940090
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.1/virtctl-v1.6.1-darwin-amd64
+    darwin-amd64: sha256:2ed369730411887412dee96d2dd8f90878f98b5e0bff912cea9957c0ed9cd09c
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.1/virtctl-v1.6.1-linux-amd64
+    linux-amd64: sha256:f70b26af9eeaa1326caf2bef3833de3a8081f30adee3bfefd3888986d7c943dc
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.1/virtctl-v1.6.1-linux-arm64
+    linux-arm64: sha256:cd035c3fcd31b920d2328a91d6bd4dc48c7a4cbe932e2924982b4eaf8fee3e36
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.1/virtctl-v1.6.1-windows-amd64.exe
+    windows-amd64: sha256:b02e044e73b6ea225337a050a8778485f91a82e4993ccb5fed7d4c243b219758
+  v1.6.2:
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.2/virtctl-v1.6.2-darwin-arm64
+    darwin-arm64: sha256:2c9c3a588ad021ba3bdee82fa47ffc47a5c4c4f4aba4d954a8331cc5cc7477ea
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.2/virtctl-v1.6.2-darwin-amd64
+    darwin-amd64: sha256:51e2960fc59511ef744f37d03f14e4c9f11f131a7474cd7962c74a166460306d
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.2/virtctl-v1.6.2-linux-amd64
+    linux-amd64: sha256:0e5c4c53cfc35f8d16a66e3c9d2432401511d1d403aecc0ca88b5821eefc1734
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.2/virtctl-v1.6.2-linux-arm64
+    linux-arm64: sha256:8334b638f187743f1eded9f379ea3e79038e90da00b7b344774404d2befa28fd
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.2/virtctl-v1.6.2-windows-amd64.exe
+    windows-amd64: sha256:52c96281dbf74a5c83710c234bd179b24b524c9fb41d9817022c7fc17246f841
+  v1.6.3:
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.3/virtctl-v1.6.3-darwin-arm64
+    darwin-arm64: sha256:d3335e4d11840ee31ce177d9395b2efe75501518e8c4b322fbd6103d33da3c2e
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.3/virtctl-v1.6.3-darwin-amd64
+    darwin-amd64: sha256:c776309d769d8ecf195d4e1beba7fa18682c19fd58a2e7528e2436b95126af49
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.3/virtctl-v1.6.3-linux-amd64
+    linux-amd64: sha256:145ae6f02a0a5473659f60b1abb877350d61e171027d21aa50d66634d9a20988
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.3/virtctl-v1.6.3-linux-arm64
+    linux-arm64: sha256:f07d20940fc6578672cae53fe5df9ea5266f757a2aa677af71fbe2c6fbdb2ac5
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.6.3/virtctl-v1.6.3-windows-amd64.exe
+    windows-amd64: sha256:675c261ada18ccbba87b11d12139c11c5cc7058b0367c0d552ad6aec4f3f9c2f
+  v1.7.0:
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.7.0/virtctl-v1.7.0-darwin-arm64
+    darwin-arm64: sha256:71280b108aaeb6dbc5a7224d7d38522c02f79bf2eae35bff04dc3615117c780d
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.7.0/virtctl-v1.7.0-darwin-amd64
+    darwin-amd64: sha256:8d3e1e2ed0f561ab2e74504daf12c63b24fb30b5cf2fd67b2130d6aa1564f7c9
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.7.0/virtctl-v1.7.0-linux-amd64
+    linux-amd64: sha256:ec6ee5619290e19590f3f9cd8b8dfce1affe0380eaaca77b3784c7b1acea86a6
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.7.0/virtctl-v1.7.0-linux-arm64
+    linux-arm64: sha256:509ae0036b37742186282d1c1ddf063ef57aa714c6db0c4636d105a6b3c400aa
+    # https://github.com/kubevirt/kubevirt/releases/download/v1.7.0/virtctl-v1.7.0-windows-amd64.exe
+    windows-amd64: sha256:6d6ccbfc61b3e634daa0c3f8777a3c5f9419a415d149b0172d1c0b8a2caf694a
